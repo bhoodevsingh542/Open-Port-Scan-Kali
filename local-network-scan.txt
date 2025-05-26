@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Mon May 26 21:01:59 2025 as: /usr/lib/nmap/nmap -sS -oN local-network-scan.txt 192.168.163.0/24
+Nmap scan report for 192.168.163.165
+Host is up (0.0052s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 62:DE:AB:58:8D:02 (Unknown)
+
+Nmap scan report for 192.168.163.128
+Host is up (0.0000050s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+21/tcp open  ftp
+
+# Nmap done at Mon May 26 21:02:10 2025 -- 256 IP addresses (2 hosts up) scanned in 10.32 seconds
